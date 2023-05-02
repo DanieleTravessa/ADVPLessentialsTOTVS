@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "totvsLanguageServer.welcomePage": false
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+}

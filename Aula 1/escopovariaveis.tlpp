@@ -1,0 +1,44 @@
+/*
+Tipos de Variáveis
+- Char ou Caracter (texto)
+- Number (numérico)
+- Date (tipos de data)
+- Array (coleção de dados)
+- logical - (lógica, verdadeiro ou falso)
+- Block/Codeblock - (Bloco de código, ou aninhamento de funções)
+- Object - Conceito de Orientação a objetos e manipulação de classes
+- nil/null - (variável nula)
+
+** Boas Práticas de declaração de variáveis
+
+**Variáveis em TLPP são de tipagem forte
+*/
+
+/*/{Protheus.doc} User Function varTipos
+    (long_description)
+    @type  Function
+    @author user
+    @since 02/05/2023
+    @version version
+    @param param_name, param_type, param_descr
+    @return return_var, return_type, return_description
+    @example
+    (examples)
+    @see (links_or_references)
+    /*/
+User Function varTLpp()
+
+    Local cTexto := ""
+    Local nNumero := 10
+    Local dData := ddatabase //data base do sistema
+    Local dHoje := CtoD('01/05/23')    
+    Local aDados := [cTexto, nNumero, dHoje]
+    Local lValida := .T. 
+    Local bBloco := {|| nNumero+10, alert(nNumero+10)}
+    Local oObjeto := Nil
+    Local xNull := Nil
+    
+    cTexto := 20
+    alert(cTexto)
+
+Return 
