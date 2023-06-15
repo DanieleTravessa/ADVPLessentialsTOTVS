@@ -24,7 +24,13 @@
 		},
 		{
 			"label": "u_escopovr"
+		},
+		{
+			"label": "sigacfg"
+		},
+		{
+			"label": "u_strModos"
 		}
 	],
-	"lastProgramExecuted": "u_escopovr"
+	"lastProgramExecuted": "u_strModos"
 }

@@ -28,11 +28,11 @@ Tipos de Variáveis
     /*/
 User Function varTLpp()
 
-    Local cTexto := ""
-    Local nNumero := 10
-    Local dData := ddatabase //data base do sistema
-    Local dHoje := CtoD('01/05/23')    
-    Local aDados := [cTexto, nNumero, dHoje]
+    Local cTexto as character
+    Local nNumero as numeric
+    Local dData as date
+    Local dHoje as date    
+    Local aDados as array
     Local lValida := .T. 
     Local bBloco := {|| nNumero+10, alert(nNumero+10)}
     Local oObjeto := Nil
